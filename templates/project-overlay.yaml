@@ -1,0 +1,13 @@
+schema_version: 0.1.0
+project: "replace-me"
+lifecycle:
+  source: "repository-url"
+  version: "tag-or-commit"
+risk_profiles: {}
+classification_rules: []
+required_reviews: {}
+commands: {}
+evidence_sources: []
+release_boundaries: []
+local_policy_documents: []
+independent_domain_lifecycles: []

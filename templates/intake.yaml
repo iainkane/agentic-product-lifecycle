@@ -1,0 +1,15 @@
+schema_version: 0.1.0
+id: CHANGE-000
+status: intake
+title: ""
+request:
+  original: ""
+  requester: ""
+  received_at: ""
+context:
+  affected_users: []
+  evidence: []
+  urgency: ""
+  proposed_solution: ""
+unknowns: []
+links: []

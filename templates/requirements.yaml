@@ -1,0 +1,13 @@
+schema_version: 0.1.0
+id: CHANGE-000
+intent_id: CHANGE-000
+status: draft
+user_scenarios: []
+functional_requirements: []
+quality_requirements: []
+failure_and_boundary_cases: []
+data_requirements: []
+dependencies: []
+acceptance_scenarios: []
+open_questions: []
+traceability: []

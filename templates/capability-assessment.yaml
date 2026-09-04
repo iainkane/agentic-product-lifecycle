@@ -1,0 +1,16 @@
+schema_version: 0.1.0
+capability: ""
+candidate:
+  name: ""
+  source: ""
+  version: ""
+  licence: ""
+  maintenance_status: ""
+assessment:
+  data_handling: ""
+  side_effects: []
+  lifecycle_fit: ""
+  overlay_support: ""
+  gaps: []
+decision: adopt
+rationale: ""

@@ -1,0 +1,13 @@
+schema_version: 0.1.0
+id: HANDOFF-000
+change_id: CHANGE-000
+from_stage: ""
+to_stage: ""
+candidate_identity: ""
+completed: []
+evidence: []
+failed_or_skipped_checks: []
+risks: []
+open_questions: []
+decision_requested: ""
+authority_required: ""

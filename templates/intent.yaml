@@ -1,0 +1,17 @@
+schema_version: 0.1.0
+id: CHANGE-000
+status: draft
+problem: ""
+affected_users: []
+desired_outcomes: []
+success_signals: []
+constraints: []
+assumptions: []
+non_goals: []
+open_questions: []
+intent_owner: ""
+decision:
+  status: pending
+  decided_by: ""
+  decided_at: ""
+  conditions: []
