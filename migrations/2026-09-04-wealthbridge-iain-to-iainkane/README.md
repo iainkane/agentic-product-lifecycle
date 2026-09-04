@@ -1,6 +1,6 @@
 # Wealthbridge-iain to iainkane migration
 
-Status: Prepared; account rename not yet submitted
+Status: Account renamed; repository migrations in progress
 
 ## Change identity
 
@@ -50,10 +50,17 @@ remove the former username.
 - [x] Confirm `iainkane` is accepted by GitHub's rename form.
 - [x] Inventory local repositories and owner references.
 - [x] Establish repository-specific change specification.
-- [ ] Confirm final account rename submission.
-- [ ] Rename account.
-- [ ] Verify repositories resolve in the new namespace.
-- [ ] Update local remotes.
+- [x] Confirm final account rename submission.
+- [x] Rename account.
+- [x] Verify repositories resolve in the new namespace.
+- [x] Update local remotes and verify read access.
 - [ ] Complete repository-specific active-configuration migrations.
 - [ ] Check profile, Pages, packages, images, Actions, apps and integrations.
-- [ ] Publish the public lifecycle repository.
+- [x] Publish the public lifecycle repository under Apache 2.0.
+
+## Known issue
+
+The first `agentic-product-lifecycle` GitHub Actions run was not started because
+GitHub reports that the account is locked due to a billing issue. Local validation
+passes; hosted CI remains unverified until the account-level billing issue is
+resolved and the workflow is rerun.
