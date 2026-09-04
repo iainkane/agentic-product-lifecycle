@@ -17,6 +17,7 @@ REQUIRED_TEMPLATES = {
     "project-overlay.yaml",
     "capability-assessment.yaml",
 }
+REQUIRED_MARKDOWN_TEMPLATES = {"repository-owner-rename.md"}
 
 
 def main() -> int:
@@ -33,6 +34,11 @@ def main() -> int:
 
     present_templates = {path.name for path in (ROOT / "templates").glob("*.yaml")}
     for missing in sorted(REQUIRED_TEMPLATES - present_templates):
+        errors.append(f"missing template templates/{missing}")
+    present_markdown_templates = {
+        path.name for path in (ROOT / "templates").glob("*.md")
+    }
+    for missing in sorted(REQUIRED_MARKDOWN_TEMPLATES - present_markdown_templates):
         errors.append(f"missing template templates/{missing}")
 
     skill_paths = sorted((ROOT / "skills").glob("*/SKILL.md"))
@@ -57,7 +63,8 @@ def main() -> int:
 
     print(
         f"Validation passed: {len(schema_paths)} schema(s), "
-        f"{len(present_templates)} template(s), {len(skill_paths)} skill(s)."
+        f"{len(present_templates) + len(present_markdown_templates)} template(s), "
+        f"{len(skill_paths)} skill(s)."
     )
     return 0
 

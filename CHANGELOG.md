@@ -8,3 +8,4 @@
 - Add skills for intent gathering, requirements elicitation and challenge,
   specification assembly, and lifecycle handoff.
 - Add dependency-free structural validation and CI.
+- Add a reusable repository-owner rename specification and planning skill.
