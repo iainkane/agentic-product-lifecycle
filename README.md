@@ -23,7 +23,7 @@ external action.
 
 ## Start here
 
-1. Read [SPEC.md](SPEC.md).
+1. Read [SPEC.md](SPEC.md) and the [adoption guide](docs/adoption.md).
 2. Copy [templates/project-overlay.yaml](templates/project-overlay.yaml) into the
    adopting project and replace its placeholders.
 3. Reference a tagged release or commit of this repository from the adopting

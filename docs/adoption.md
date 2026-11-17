@@ -27,6 +27,9 @@ defaults. Keep independent domain-production processes on their own lifecycle.
 No lifecycle state or approval grants permission for a later external action.
 ```
 
+For projects that use Google Cloud, see the [cloud authentication guide](google-cloud-authentication.md)
+when preparing the project runbook and reviewing access changes.
+
 ## Updating
 
 Review release notes and schema changes, update the pinned version on a branch,
